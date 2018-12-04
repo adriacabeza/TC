@@ -1,6 +1,6 @@
 # Exercicis RACSO
 
-En el següent document hi ficaré les solucions d'alguns exercicis del RACSO. No hi estan tots (em feia tot el pal posar-los tots) però potser t'ajuda si et quedes encallat en un exercici. 
+En el següent document hi ficaré les solucions d'alguns exercicis del RACSO. No hi estan tots (em feia tot el pal posar tots els que tinc) però potser t'ajuda si et quedes encallat en un exercici. 
 
 Llista d'exercicis del RACSO: 
 - Regular descriptions(Reg)
