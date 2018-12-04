@@ -5,6 +5,7 @@ En el següent document hi ficaré les solucions d'alguns exercicis del RACSO. N
 Llista d'exercicis del RACSO: 
 - Regular descriptions(Reg)
 - Context-free grammars(CFG)
+- *Deterministic Finite Automaton (DFA)
 - Examens
 
 Llista d'exercisis de pissarra:
@@ -25,4 +26,3 @@ Llista d'exercisis de pissarra:
 - 2.8
 - 2.18
 
-  
