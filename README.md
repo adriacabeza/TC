@@ -6,23 +6,7 @@ Llista d'exercicis del RACSO:
 - Regular descriptions(Reg)
 - Context-free grammars(CFG)
 - Deterministic Finite Automaton (DFA)
+- Pushdown Automaton (PDA)
 - Examens
 
-Llista d'exercisis de pissarra:
-- 1.1b
-- 1.1d
-- 1.1e
-- 1.1f
-- 1.2b
-- 1.2c
-- 1.2h
-- 1.3c
-- 1.3f
-- 1.4e
-- 1.4g
-- 1.6d
-- 1.6f
-- 2.4 
-- 2.8
-- 2.18
-
+> He afegit els primers exercicis de la classe de problemes
