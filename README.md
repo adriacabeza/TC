@@ -9,8 +9,5 @@ Llista d'exercicis del RACSO:
 - Pushdown Automaton (PDA)
 - Examens
 
-<<<<<<< HEAD
 > He afegit els primers exercicis de la classe de problemes
-=======
-> He afegit els primers exercicis de la classe de problemes
->>>>>>> 1c369dceeff69ad415a16ced87eeea2e64a82262
+
