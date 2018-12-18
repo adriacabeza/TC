@@ -7,6 +7,7 @@ Llista d'exercicis del RACSO:
 - Context-free grammars(CFG)
 - Deterministic Finite Automaton (DFA)
 - Pushdown Automaton (PDA)
+- Reduccions de K (K)
 - Examens
 
 > He afegit els primers exercicis de la classe de problemes
