@@ -10,6 +10,7 @@ Llista d'exercicis del RACSO:
 - Deterministic Finite Automaton (DFA)
 - Pushdown Automaton (PDA)
 - Reduccions de K (K)
+- Reduccions de CFG (CFG)
 - Exàmens
 
 > He afegit els primers exercicis de la classe de problemes
