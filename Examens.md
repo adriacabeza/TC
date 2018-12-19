@@ -89,7 +89,7 @@ S-> X|
 X-> (X)S|()(X)S|()
 ```
 
-### Exame on REG+CFG+PDA, April 25th, 2016
+### Exam on REG+CFG+PDA, April 25th, 2016
 Exercici  5
 ```c
 main
@@ -162,3 +162,210 @@ p  p  p " ;
   output L2 & L3;
 }
 ```
+
+## Exam on Reductions, December 17th, 2014
+
+Exercici 1
+
+```c
+input y
+{
+  
+  if(mxxstopsininputsteps){
+    output y;
+
+  } 
+  else {
+      if(y%5 ==0 and y != 10) accept;
+      else infiniteloop;
+  }
+}
+```
+
+Exercici 2
+
+```c
+input g
+{
+	G1 = ("a"|"b")*-"a";
+  	G11 = G1-"b";
+  	G2 = g- "b";
+  	output G11, G2,g;
+}
+```
+
+Exercici 4
+
+```c
+input y
+{
+  
+  if(not mxxstopsininputsteps){
+    output 2*y+1;
+  }
+  else{
+  	output y;
+  }
+}
+
+input y
+{
+  if(not mxxstopsininputsteps){
+  	output 2*y;
+  }
+   else{
+  	output y;
+  }
+}
+```
+
+## Exam on Reductions, December 17th, 2015
+
+Exercici 1
+
+```c
+input y
+{
+  runmxx;
+  if(y%3 == 0) output y;
+  if(y%3 == 1) output 2*y;
+  if(y%3 == 2)output y;
+   
+}
+```
+
+Exercici 2
+
+```c
+u
+#
+l->r
+v->#
+```
+
+Exercici 3
+
+```c
+input y
+{
+ if(mxxstopsininputsteps) output y;
+  else{
+    if(y == 1) output 0;
+    if(y == 2) output 1;
+    if(y == 3) output 2;
+  }
+}
+
+input y
+{
+  if(mxxstopsininputsteps) output y;
+  else{
+    if(y==1 or y == 2 or y == 3) output 0;
+    if(y == 4) output 1;
+  }
+}
+
+input y
+{
+ if(mxxstopsininputsteps) infiniteloop;
+  else{
+    if(y==1 or y == 2 or y == 3 or y == 4 or y == 5) output 0;
+ 
+  }
+
+}
+```
+
+Exercici 4
+
+```c
+input g
+{
+  G1 = "a" g "b";
+  G2 = "a"("a"|"b")*"b";
+  output G2,G1;
+}
+```
+
+
+
+## Exam on Reductions, June 5th, 2015
+
+Exercici 1
+
+```c
+input y
+{
+  runmxx;
+  if(y==0) output 3;
+  if(y==1) output 3;
+  if(y==2) output 5;
+  infiniteloop;
+}
+```
+
+
+
+## Exam on Reductions, May 30th, 2016
+
+Exercici 1
+
+```c
+u
+u
+l-> r
+```
+
+Exercici 2
+
+```c
+input y
+{
+  if(mxxstopsininputsteps){
+  	reject;
+  }
+  else{
+  	output y*y*y;
+  }
+}
+```
+
+Exercici 3
+
+```c
+input y
+{
+  if(mxxstopsininputsteps){
+    infiniteloop;
+  }
+  else{
+    if(y%2==0){
+      output y;
+    }
+  }  
+}
+
+input y
+{
+   if(mxxstopsininputsteps){
+     infiniteloop;     
+  }
+  else{
+    if(y%2==1){
+      output y;
+    }
+  }   
+}
+```
+
+Exercici 4
+
+```c
+input g
+{
+  G3 = ("a"|"b")* - "a";
+  G2 = "a";
+  output g, G2,G3; 
+}
+```
+
